@@ -4,8 +4,23 @@
   "description": "New react build for my TIY final project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "watch": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "author": "Andrew Rymer",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
 }
