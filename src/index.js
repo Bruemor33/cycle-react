@@ -9,4 +9,6 @@ ReactDOM.render(<Index />, document.getElementById('index'));
 
 console.log("hello world");
 
+import '../src/index.scss';
+
 
