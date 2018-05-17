@@ -1,0 +1,11 @@
+{
+  "name": "cycle-parts",
+  "version": "1.0.0",
+  "description": "New react build for my TIY final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Andrew Rymer",
+  "license": "MIT"
+}
