@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import 'bootstrap';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Navigation from "../public/views/partials/navbar.js";
 
-const Index = () => {
-    return <div>Hello react!</div>;
+const Home = () => {
+    return (
+        <Navigation />
+    )
 }
 
-ReactDOM.render(<Index />, document.getElementById('index'));
+ReactDOM.render(<Home />, document.getElementById('index'));
 
 console.log("hello world");
 
