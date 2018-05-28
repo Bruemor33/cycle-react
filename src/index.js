@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import 'bootstrap';
 
 const Index = () => {
     return <div>Hello react!</div>;
