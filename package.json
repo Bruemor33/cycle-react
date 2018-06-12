@@ -32,5 +32,8 @@
     "popper.js": "^1.14.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
+  },
+  "optionalDependencies": {
+    "react-router-dom": "^4.3.1"
   }
 }

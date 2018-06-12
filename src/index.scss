@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
-#index div {
-    color: red;
+.home-body {
+    margin-top: 100px;
+
+    h1 {
+        text-align: center;
+    }
 }
